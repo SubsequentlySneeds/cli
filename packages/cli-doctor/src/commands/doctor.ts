@@ -268,7 +268,6 @@ const doctorCommand = (async (_, options, config) => {
 
 export default {
   func: doctorCommand,
-  detached: true,
   name: 'doctor',
   description:
     'Diagnose and fix common Node.js, iOS, Android & React Native issues.',

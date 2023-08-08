@@ -12,11 +12,9 @@ export const projectCommands = [
   ...configCommands,
   cleanCommands.clean,
   doctorCommands.info,
+  doctorCommands.doctor,
   upgrade,
   profileHermes,
 ] as Command[];
 
-export const detachedCommands = [
-  init,
-  doctorCommands.doctor,
-] as DetachedCommand[];
+export const detachedCommands = [init] as DetachedCommand[];
